@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-6">
+                <h2>Area de un trapecio</h2>
+                <div class="mb-3">
+                    <label class="form-label">Base Superior</label>
+                    <input id="inp_bs" class="form-control" type="text" placeholder="Ingrese la base superior">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" >Base Inferior</label>
+                    <input id="inp_bi" class="form-control" type="text" placeholder="Ingrese la base inferior">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" >Altura(h)</label>
+                    <input id="inp_altura" class="form-control" type="text" placeholder="Ingrese la altura">
+                </div>
+                <button id="btn_calcular" class="btn btn-primary">Calcular</button>
+
+                <h3 id="h_resul"></h3>
+            </div>
+            <div class="col-6">
+                <h2>Area de un triangulo rectangulo</h2>
+                <div class="mb-3">
+                    <label class="form-label">Base del triangulo rectangulo</label>
+                    <input id="inp_bt" class="form-control" type="text" placeholder="Base del triangulo rectangulo">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" >Altura del triangulo rectangulo</label>
+                    <input id="inp_at" class="form-control" type="text" placeholder="Altura del triangulo rectangulo">
+                </div>
+                <button id="btn_calcular2" class="btn btn-primary">Calcular</button>
+
+                <h3 id="h_resul2"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
