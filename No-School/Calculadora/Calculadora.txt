@@ -1,0 +1,21 @@
+Primer columna{
+	area de un cuadrado (Longladodelcuadrado^2)
+	area de un rectangulo (Base * altura)
+	area de un trapecio (
+	area de un paralelogramo (
+	area de un romboide (
+}
+Segunda columna{
+	area de un triangulo (
+	area de un triangulo rectangulo (
+	area de un triangulo escaleno (
+	area de un triangulo isosceles (
+	area de un triangulo equilatero (
+}
+Tercer columna{
+	area de un circulo (
+	area de un elipse (
+	area de un rombo (
+	area de un pentagono regular (
+	area de un hexagono regular (
+}
